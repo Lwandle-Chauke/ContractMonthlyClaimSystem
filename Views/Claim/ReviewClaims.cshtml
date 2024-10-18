@@ -1,0 +1,40 @@
+﻿@model IEnumerable<PROGPart2.Models.Claim>
+
+<h1>Review Claims</h1>
+
+@if (Model.Any())
+{
+    <table>
+        <thead>
+            <tr>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Hours Worked</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var claim in Model)
+            {
+                <tr>
+                    <td>@claim.StartDate.ToShortDateString()</td>
+                    <td>@claim.EndDate.ToShortDateString()</td>
+                    <td>@claim.HoursWorked</td>
+                    <td>@claim.Status</td>
+                    <td>
+                        <form asp-action="UpdateClaimStatus" method="post">
+                            <input type="hidden" name="id" value="@claim.Id" />
+                            <button type="submit" name="status" value="Accepted">Accept</button>
+                            <button type="submit" name="status" value="Rejected">Reject</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>@ViewBag.Message</p> <!-- Displays a message if no claims are pending -->
+}
