@@ -1,17 +1,20 @@
+Here is the updated README with `**` and `##` for Markdown formatting:
+
+```
 # **Contract Monthly Claim System (CMCS)**
 
-## Overview
+## **Overview**
 
-The **Contract Monthly Claim System (CMCS)** is a web-based application developed using **C#** and **.NET Core MVC** framework. The system allows lecturers to submit claims for hours worked, and Programme Coordinators to manage and approve/reject those claims. Academic Managers can also track and view the overall status of submitted claims. 
+The **Contract Monthly Claim System (CMCS)** is a web-based application developed using **C#** and the **.NET Core MVC** framework. The system streamlines the process of submitting, approving, and tracking monthly claims for Independent Contractor (IC) lecturers. Programme Coordinators can manage and approve/reject claims, while Academic Managers can track the status of all claims.
 
 The application includes:
 - **Lecturer Dashboard**: Submit and track claims.
 - **Programme Coordinator Dashboard**: Review and approve/reject claims.
-- **Role-Based Access**: Different users (Lecturers, Coordinators, Managers) have access to different functionality.
+- **Role-Based Access**: Different users (Lecturers, Coordinators, Managers) have distinct functionalities.
 - **Document Upload**: Supporting documents can be uploaded with each claim.
 - **Claim Status Tracker**: Track the status of submitted claims.
 
-## Features
+## **Features**
 
 1. **User Registration**:
    - Roles: Lecturers, Programme Coordinators, and Academic Managers.
@@ -32,7 +35,7 @@ The application includes:
    - Track all submitted claims for Lecturers and Managers.
    - Coordinators can filter claims and update statuses.
 
-## Project Structure
+## **Project Structure**
 
 ```bash
 PROGPart2/
@@ -45,9 +48,9 @@ PROGPart2/
 └── README.md            # This file
 ```
 
-## Setup Instructions
+## **Setup Instructions**
 
-### Prerequisites
+### **Prerequisites**
 
 To run this project, ensure you have the following software installed:
 
@@ -56,7 +59,7 @@ To run this project, ensure you have the following software installed:
 - **SQL Server** (for database storage)
 - **Git** (to clone the repository)
 
-### Cloning the Repository
+### **Cloning the Repository**
 
 1. Open a terminal window and run the following command to clone the repository:
 
@@ -70,7 +73,7 @@ To run this project, ensure you have the following software installed:
    cd PROGPart2
    ```
 
-### Database Setup
+### **Database Setup**
 
 1. In the `appsettings.json` file, configure your **SQL Server** connection string:
 
@@ -86,7 +89,7 @@ To run this project, ensure you have the following software installed:
    dotnet ef database update
    ```
 
-### Running the Application
+### **Running the Application**
 
 1. Open the solution in **Visual Studio** or your preferred IDE.
 2. Build the project to restore dependencies.
@@ -98,7 +101,7 @@ To run this project, ensure you have the following software installed:
 
 4. The application should now be running on `https://localhost:5001`.
 
-### Unit Tests
+### **Unit Tests**
 
 The project includes unit tests to verify the functionality of:
 - Account registration
@@ -117,28 +120,28 @@ Alternatively, you can run the tests via the command line:
 dotnet test
 ```
 
-## Usage Instructions
+## **Usage Instructions**
 
-### 1. **Register a New User**
+### **1. Register a New User**
    - Navigate to the **Registration** page.
    - Fill out the form with your details, including selecting a role (Lecturer, Coordinator, or Manager).
    - After successful registration, log in to access your dashboard.
 
-### 2. **Submitting a Claim (Lecturer)**
+### **2. Submitting a Claim (Lecturer)**
    - After logging in as a lecturer, go to the **Submit Claim** page.
    - Fill in the required details such as hours worked, hourly rate, and upload any supporting documents.
    - Submit the claim and track its status on the **Track Claims** page.
 
-### 3. **Managing Claims (Coordinator)**
+### **3. Managing Claims (Coordinator)**
    - Coordinators can review all submitted claims from the **Manage Claims** section.
    - Claims can either be **Accepted** or **Rejected**.
    - Once a claim’s status is updated, the lecturer can see the updated status in their **Track Claims** section.
 
-### 4. **Tracking Claims (Lecturer & Managers)**
+### **4. Tracking Claims (Lecturer & Managers)**
    - Lecturers can track the status of their submitted claims in the **Track Claims** section.
    - Academic Managers can view the overall status of claims submitted across the organization.
 
-## Technologies Used
+## **Technologies Used**
 
 - **.NET Core MVC**: For the web framework and application structure.
 - **C#**: Backend logic and database interaction.
@@ -148,7 +151,7 @@ dotnet test
 - **Bootstrap**: For styling and responsive design.
 - **Unit Testing**: NUnit or xUnit for testing the functionality of the system.
 
-## Contributions
+## **Contributions**
 
 Contributions are welcome! To contribute:
 
@@ -157,11 +160,11 @@ Contributions are welcome! To contribute:
 3. Make your changes.
 4. Submit a pull request for review.
 
-## License
+## **License**
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Contact Information
+## **Contact Information**
 
 For any issues or suggestions, feel free to reach out:
 
