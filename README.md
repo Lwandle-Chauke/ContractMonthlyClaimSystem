@@ -1,7 +1,4 @@
-Here is the updated README with `**` and `##` for Markdown formatting:
-
-```
-# **Contract Monthly Claim System (CMCS)**
+**Contract Monthly Claim System (CMCS)**
 
 ## **Overview**
 
