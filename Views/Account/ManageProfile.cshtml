@@ -1,0 +1,135 @@
+﻿@model PROGPart2.Models.User
+@{
+    ViewData["Title"] = "Manage Profile";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - PROGPart2</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <style>
+        /* General Styles */
+        body {
+            background-color: white;
+            font-family: 'Tenor Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            min-height: 100vh;
+        }
+
+        /* Header Styles */
+        header {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            background-color: white;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Container Styles (Box Styling) */
+        .container {
+            margin: 100px auto 20px; /* Adjust top margin to account for fixed header */
+            max-width: 600px; /* Make the box smaller */
+            padding: 20px;
+            border: 2px solid #ff66ff; /* Light baby pink border for box */
+            border-radius: 8px; /* Rounded corners */
+            background-color: #f9f9f9; /* Light background inside the box */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+            text-align: center;
+        }
+
+        /* Headings */
+        h1 {
+            font-weight: bold;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            color: #ff4da6;
+        }
+
+        h2 {
+            color: #ff4da6;
+            font-weight: bold;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        /* Profile Section */
+        .profile-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .profile-pic {
+            width: 100px; /* Smaller picture */
+            height: 100px;
+            border-radius: 50%; /* Circular image */
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 2px solid #ff66ff;
+        }
+
+        .profile-details p {
+            margin: 10px 0;
+            font-size: 16px;
+        }
+
+        /* Bold and Pink for Labels */
+        .profile-details strong {
+            color: #ff66ff; /* Bold and pink for labels */
+            font-weight: bold;
+        }
+
+        /* Black for the rest of the text */
+        .profile-details span {
+            color: black; /* Black text for user details */
+        }
+
+        /* Button Styles */
+        a.btn {
+            background-color: #ff3399; /* Darker pink */
+            color: white;
+            padding: 12px 25px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+        }
+
+            a.btn:hover {
+                background-color: #ff80bf; /* Lighter pink on hover */
+            }
+    </style>
+</head>
+<body>
+    <!-- Main Content Container -->
+    <h1>Manage Profile</h1>
+    <div class="container">
+        <div class="profile-section">
+            <img src="~/images/R.png" alt="No Profile Picture" class="profile-pic" />
+            <div class="profile-details">
+                <p><strong>Name:</strong> <span>@Model.Name</span></p>
+                <p><strong>Surname:</strong> <span>@Model.Surname</span></p>
+                <p><strong>Email:</strong> <span>@Model.Email</span></p>
+                <p><strong>Role:</strong> <span>@Model.Role</span></p>
+            </div>
+        </div>
+        <div>
+            <a href="@Url.Action("EditProfile", "Account")" class="btn">Edit Profile</a>
+        </div>
+    </div>
+</body>
+</html>

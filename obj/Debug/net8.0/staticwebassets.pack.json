@@ -1,0 +1,369 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PROGPart2.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PROGPart2.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\claimdocuments\\LecturerActivityReport.pdf",
+      "PackagePath": "staticwebassets\\claimdocuments\\LecturerActivityReport.pdf"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\claimdocuments\\The Social Impact Of Drug Absue.pdf",
+      "PackagePath": "staticwebassets\\claimdocuments\\The Social Impact Of Drug Absue.pdf"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\images\\CMCS.png",
+      "PackagePath": "staticwebassets\\images\\CMCS.png"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\images\\R.jpeg",
+      "PackagePath": "staticwebassets\\images\\R.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\images\\R.png",
+      "PackagePath": "staticwebassets\\images\\R.png"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\images\\board meeting.jpg",
+      "PackagePath": "staticwebassets\\images\\board meeting.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\images\\bookshelf.jpg",
+      "PackagePath": "staticwebassets\\images\\bookshelf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\images\\girl in library.jpg",
+      "PackagePath": "staticwebassets\\images\\girl in library.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\images\\huge lecture theater.jpg",
+      "PackagePath": "staticwebassets\\images\\huge lecture theater.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\images\\lecture theater.jpg",
+      "PackagePath": "staticwebassets\\images\\lecture theater.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\images\\office lunch.jpg",
+      "PackagePath": "staticwebassets\\images\\office lunch.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\images\\seminar room.jpg",
+      "PackagePath": "staticwebassets\\images\\seminar room.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\images\\skype.jpg",
+      "PackagePath": "staticwebassets\\images\\skype.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\uploads\\The Social Impact Of Drug Absue.pdf",
+      "PackagePath": "staticwebassets\\uploads\\The Social Impact Of Drug Absue.pdf"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\uploads\\The Social Impact Of Drug Absue_1deebe0a-89fe-45f4-9bef-d183e7aa4b9b.pdf",
+      "PackagePath": "staticwebassets\\uploads\\The Social Impact Of Drug Absue_1deebe0a-89fe-45f4-9bef-d183e7aa4b9b.pdf"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\uploads\\The Social Impact Of Drug Absue_27ecf043-ab98-4e26-b1a7-eade8193dddb.pdf",
+      "PackagePath": "staticwebassets\\uploads\\The Social Impact Of Drug Absue_27ecf043-ab98-4e26-b1a7-eade8193dddb.pdf"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\uploads\\The Social Impact Of Drug Absue_4611cd9d-1183-482d-983b-cf901f720c10.pdf",
+      "PackagePath": "staticwebassets\\uploads\\The Social Impact Of Drug Absue_4611cd9d-1183-482d-983b-cf901f720c10.pdf"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\uploads\\The Social Impact Of Drug Absue_496dfe27-ffd0-4fab-9869-14646550cbb1.pdf",
+      "PackagePath": "staticwebassets\\uploads\\The Social Impact Of Drug Absue_496dfe27-ffd0-4fab-9869-14646550cbb1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\uploads\\The Social Impact Of Drug Absue_65ea74e8-ab8c-4ac5-8327-798cd23ede0e.pdf",
+      "PackagePath": "staticwebassets\\uploads\\The Social Impact Of Drug Absue_65ea74e8-ab8c-4ac5-8327-798cd23ede0e.pdf"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\uploads\\The Social Impact Of Drug Absue_6654286c-f4f5-4664-b0a2-9584759f0cb0.pdf",
+      "PackagePath": "staticwebassets\\uploads\\The Social Impact Of Drug Absue_6654286c-f4f5-4664-b0a2-9584759f0cb0.pdf"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\uploads\\The Social Impact Of Drug Absue_6d2d3d60-d6c7-4ba8-bd0c-ec46417f4458.pdf",
+      "PackagePath": "staticwebassets\\uploads\\The Social Impact Of Drug Absue_6d2d3d60-d6c7-4ba8-bd0c-ec46417f4458.pdf"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\uploads\\The Social Impact Of Drug Absue_746745ff-eba9-483c-9853-12ccd48f7bd7.pdf",
+      "PackagePath": "staticwebassets\\uploads\\The Social Impact Of Drug Absue_746745ff-eba9-483c-9853-12ccd48f7bd7.pdf"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\uploads\\The Social Impact Of Drug Absue_a9472fc4-4f45-4c07-9e48-3b49fc50892b.pdf",
+      "PackagePath": "staticwebassets\\uploads\\The Social Impact Of Drug Absue_a9472fc4-4f45-4c07-9e48-3b49fc50892b.pdf"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\uploads\\The Social Impact Of Drug Absue_d01651c0-ca82-4674-b788-31cfa0d2dd0b.pdf",
+      "PackagePath": "staticwebassets\\uploads\\The Social Impact Of Drug Absue_d01651c0-ca82-4674-b788-31cfa0d2dd0b.pdf"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\uploads\\The Social Impact Of Drug Absue_d48e575b-24e0-4a39-a92c-2cc1ac17f41c.pdf",
+      "PackagePath": "staticwebassets\\uploads\\The Social Impact Of Drug Absue_d48e575b-24e0-4a39-a92c-2cc1ac17f41c.pdf"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\PROGPart2\\PROGPart2\\wwwroot\\uploads\\The Social Impact Of Drug Absue_eaceb19b-e105-4ee6-9d22-d99fbe272481.pdf",
+      "PackagePath": "staticwebassets\\uploads\\The Social Impact Of Drug Absue_eaceb19b-e105-4ee6-9d22-d99fbe272481.pdf"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PROGPart2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PROGPart2.props",
+      "PackagePath": "build\\PROGPart2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PROGPart2.props",
+      "PackagePath": "buildMultiTargeting\\PROGPart2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PROGPart2.props",
+      "PackagePath": "buildTransitive\\PROGPart2.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

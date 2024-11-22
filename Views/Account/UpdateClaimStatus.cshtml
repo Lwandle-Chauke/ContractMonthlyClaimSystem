@@ -1,0 +1,46 @@
+﻿@model PROGPart2.Models.ViewModels.UpdateClaimStatusViewModel // Ensure the correct namespace
+
+@{
+    ViewData["Title"] = "Update Claim Status";
+}
+
+<h1>Update Claim Status</h1>
+
+<!-- Display success message if available -->
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Message"]
+    </div>
+}
+
+<!-- Display error message if available -->
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<form asp-controller="Claim" asp-action="UpdateClaimStatus" method="post">
+    <div>
+        <label>Claim ID:</label>
+        <input type="text" value="@Model.ClaimId" readonly />
+    </div>
+    <div>
+        <label>Lecturer Name:</label>
+        <input type="text" value="@Model.LecturerName" readonly />
+    </div>
+    <div>
+        <label>Current Status:</label>
+        <input type="text" value="@Model.CurrentStatus" readonly />
+    </div>
+    <div>
+        <label>New Status:</label>
+        <select asp-for="SelectedStatus" asp-items="@(new SelectList(Model.StatusOptions))">
+            <option value="">--Select Status--</option>
+        </select>
+    </div>
+
+    <button type="submit">Update Status</button>
+</form>

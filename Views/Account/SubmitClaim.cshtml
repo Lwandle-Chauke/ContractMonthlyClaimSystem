@@ -1,0 +1,78 @@
+﻿@{
+    ViewData["Title"] = "Submit Claim";
+}
+
+<form asp-action="SubmitClaim" method="post" enctype="multipart/form-data">
+    @Html.AntiForgeryToken()
+    <h1>Submit Claim</h1>
+
+    <div>
+        <label>Start Date</label>
+        <input type="date" name="StartDate" required />
+    </div>
+    <div>
+        <label>End Date</label>
+        <input type="date" name="EndDate" required />
+    </div>
+    <div>
+        <label>Hours Worked</label>
+        <input type="number" name="HoursWorked" required />
+    </div>
+    <div>
+        <label>Hourly Rate</label>
+        <input type="number" name="HourlyRate" step="0.01" required />
+    </div>
+    <div>
+        <label>University</label>
+        <input type="text" name="University" required />
+    </div>
+    <div>
+        <label>Claim Document</label>
+        <input type="file" name="ClaimDocument" accept=".pdf,.doc,.docx,.xlsx" required />
+    </div>
+    <button type="submit">Submit Claim</button>
+
+    @if (TempData["Message"] != null)
+    {
+            <div>@TempData["Message"]</div>
+    }
+    @if (TempData["Error"] != null)
+    {
+            <div style="color:red;">@TempData["Error"]</div>
+    }
+</form>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const hoursWorkedInput = document.querySelector("input[name='HoursWorked']");
+        const hourlyRateInput = document.querySelector("input[name='HourlyRate']");
+        const totalAmountDisplay = document.createElement("div");
+        totalAmountDisplay.style.marginTop = "10px";
+        hoursWorkedInput.parentElement.appendChild(totalAmountDisplay);
+
+        function calculateTotal() {
+            const hoursWorked = parseFloat(hoursWorkedInput.value);
+            const hourlyRate = parseFloat(hourlyRateInput.value);
+
+            if (!isNaN(hoursWorked) && !isNaN(hourlyRate)) {
+                const total = hoursWorked * hourlyRate;
+                totalAmountDisplay.textContent = `Total Amount: R${total.toFixed(2)}`;
+            } else {
+                totalAmountDisplay.textContent = "";
+            }
+        }
+
+        hoursWorkedInput.addEventListener("input", calculateTotal);
+        hourlyRateInput.addEventListener("input", calculateTotal);
+
+        // Validate the form on submit
+        const form = document.querySelector("form");
+        form.addEventListener("submit", (e) => {
+            if (hoursWorkedInput.value <= 0 || hourlyRateInput.value <= 0) {
+                e.preventDefault();
+                alert("Hours Worked and Hourly Rate must be greater than 0.");
+            }
+        });
+    });
+</script>

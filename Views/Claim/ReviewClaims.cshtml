@@ -1,0 +1,39 @@
+﻿@using PROGPart2.Models
+@model IEnumerable<Claim>
+
+
+@{
+    ViewData["Title"] = "Review Claims";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Message"]
+    </div>
+}
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.LecturerName)</th>
+            <th>@Html.DisplayNameFor(model => model.Status)</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var claim in Model)
+        {
+            <tr>
+                <td>@claim.LecturerName</td>
+                <td>@claim.Status</td>
+                <td>
+                    <a href="@Url.Action("UpdateClaimStatus", new { claimId = claim.Id })" class="btn btn-primary">Update Status</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

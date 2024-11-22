@@ -1,0 +1,72 @@
+﻿@using PROGPart2.Models
+@model IEnumerable<Claim>
+
+
+<h1>Track Claims</h1>
+
+@if (Model.Any())
+{
+    <button onclick="window.location.href='@Url.Action("DownloadClaimsReport", "Claim")'" class="btn btn-primary">
+        Download Claims Report
+    </button>
+    <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+        <thead>
+            <tr style="background-color: #f2f2f2;">
+                <th style="border: 1px solid #ddd; padding: 8px;">Claim ID</th>
+                <th style="border: 1px solid #ddd; padding: 8px;">Start Date</th>
+                <th style="border: 1px solid #ddd; padding: 8px;">End Date</th>
+                <th style="border: 1px solid #ddd; padding: 8px;">Status</th>
+                <th style="border: 1px solid #ddd; padding: 8px;">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var claim in Model)
+            {
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">@claim.Id</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">@claim.StartDate.ToString("yyyy-MM-dd")</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">@claim.EndDate.ToString("yyyy-MM-dd")</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">
+                        @if (claim.Status == "Pending")
+                        {
+                            <span style="color: orange;">
+                                <i class="fas fa-clock"></i> Pending
+                            </span>
+                        }
+                        else if (claim.Status == "Accepted")
+                        {
+                            <span style="color: green;">
+                                <i class="fas fa-check-circle"></i> Accepted
+                            </span>
+                        }
+                        else if (claim.Status == "Rejected")
+                        {
+                            <span style="color: red;">
+                                <i class="fas fa-times-circle"></i> Rejected
+                            </span>
+                        }
+                    </td>
+
+
+                    <td style="border: 1px solid #ddd; padding: 8px;">
+                        <a asp-action="ViewClaimDetails" asp-route-id="@claim.Id">View Details</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <!-- Status Summary Section -->
+    <div style="margin-top: 20px; font-size: 1.1rem;">
+        <h2>Status Summary</h2>
+        <p>Pending: @Model.Count(c => c.Status == "Pending")</p>
+        <p>Accepted: @Model.Count(c => c.Status == "Accepted")</p>
+        <p>Rejected: @Model.Count(c => c.Status == "Rejected")</p>
+    </div>
+}
+else
+{
+    <p>No claims found.</p>
+}
+
+

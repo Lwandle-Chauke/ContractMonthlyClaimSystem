@@ -1,0 +1,83 @@
+﻿@model PROGPart2.Models.Claim
+
+
+<h1>Claim Details</h1>
+
+@if (Model != null)
+{
+    <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+        <tr style="background-color: #f2f2f2;">
+            <th style="border: 1px solid #ddd; padding: 8px;">Claim ID</th>
+            <td style="border: 1px solid #ddd; padding: 8px;">@Model.Id</td>
+        </tr>
+        <tr>
+            <th style="border: 1px solid #ddd; padding: 8px;">Date Submitted</th>
+            <td style="border: 1px solid #ddd; padding: 8px;">@Model.StartDate.ToString("yyyy-MM-dd")</td>
+        </tr>
+        <tr>
+            <th style="border: 1px solid #ddd; padding: 8px;">Lecturer Email</th>
+            <td style="border: 1px solid #ddd; padding: 8px;">@Model.LecturerEmail</td>
+        </tr>
+        <tr>
+            <th style="border: 1px solid #ddd; padding: 8px;">University</th>
+            <td style="border: 1px solid #ddd; padding: 8px;">@Model.University</td>
+        </tr>
+        <tr>
+            <th style="border: 1px solid #ddd; padding: 8px;">Hours Worked</th>
+            <td style="border: 1px solid #ddd; padding: 8px;">@Model.HoursWorked</td>
+        </tr>
+        <tr>
+            <th style="border: 1px solid #ddd; padding: 8px;">Hourly Rate</th>
+            <td style="border: 1px solid #ddd; padding: 8px;">
+                @Model.HourlyRate.ToString("C", new System.Globalization.CultureInfo("en-ZA"))
+            </td>
+
+
+        </tr>
+        <tr>
+            <th style="border: 1px solid #ddd; padding: 8px;">Total Amount</th>
+            <td style="border: 1px solid #ddd; padding: 8px;">
+                @((Model.HoursWorked * Model.HourlyRate).ToString("C", new System.Globalization.CultureInfo("en-ZA")))
+            </td>
+
+        </tr>
+        <tr>
+            <th style="border: 1px solid #ddd; padding: 8px;">Document</th>
+            <td style="border: 1px solid #ddd; padding: 8px;">
+                @if (!string.IsNullOrEmpty(Model.DocumentPath))
+                {
+                    <a href="@Url.Content("~/uploads/" + Model.DocumentPath)" target="_blank">View Document</a>
+                }
+                else
+                {
+                    <span>No Document</span>
+                }
+            </td>
+        </tr>
+        <tr>
+            <th style="border: 1px solid #ddd; padding: 8px;">Status</th>
+            <td style="border: 1px solid #ddd; padding: 8px;">
+                @if (Model.Status == "Pending")
+                {
+                    <span style="color: orange;">Pending</span>
+                }
+                else if (Model.Status == "Accepted")
+                {
+                    <span style="color: green;">Accepted</span>
+                }
+                else if (Model.Status == "Rejected")
+                {
+                    <span style="color: red;">Rejected</span>
+                }
+            </td>
+        </tr>
+    </table>
+
+    <div style="margin-top: 20px;">
+        <a asp-action="TrackClaims" class="btn btn-primary">Back to Track Claims</a>
+    </div>
+}
+else
+{
+    <p>Claim not found.</p>
+}

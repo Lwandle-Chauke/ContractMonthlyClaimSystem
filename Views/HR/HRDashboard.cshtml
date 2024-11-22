@@ -1,0 +1,80 @@
+﻿@model PROGPart2.Models.ViewModels.HRDashboardViewModel
+
+<h2>HR Dashboard</h2>
+
+<h3>Lecturers</h3>
+<table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+    <thead>
+        <tr style="background-color: #f2f2f2;">
+            <th style="border: 1px solid #ddd; padding: 8px;">Lecturer ID</th>
+            <th style="border: 1px solid #ddd; padding: 8px;">Name</th>
+            <th style="border: 1px solid #ddd; padding: 8px;">Email</th>
+            <th style="border: 1px solid #ddd; padding: 8px;">Total Work Hours</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var lecturer in Model.Lecturers)
+        {
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 8px;">@lecturer.Id</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">@lecturer.Name</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">@lecturer.Email</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">@lecturer.HoursWorked</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h3>Claims</h3>
+<table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+    <thead>
+        <tr style="background-color: #f2f2f2;">
+            <th style="border: 1px solid #ddd; padding: 8px;">Claim ID</th>
+            <th style="border: 1px solid #ddd; padding: 8px;">Lecturer Email</th>
+            <th style="border: 1px solid #ddd; padding: 8px;">Status</th>
+            <th style="border: 1px solid #ddd; padding: 8px;">Amount</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var claim in Model.Claims)
+        {
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 8px;">@claim.Id</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">@claim.LecturerEmail</td> <!-- Changed to Email -->
+                <td style="border: 1px solid #ddd; padding: 8px;">
+                    @if (claim.Status == "Pending")
+                    {
+                        <span style="color: orange;">
+                            <i class="fas fa-clock"></i> Pending
+                        </span>
+                    }
+                    else if (claim.Status == "Accepted")
+                    {
+                        <span style="color: green;">
+                            <i class="fas fa-check-circle"></i> Accepted
+                        </span>
+                    }
+                    else if (claim.Status == "Rejected")
+                    {
+                        <span style="color: red;">
+                            <i class="fas fa-times-circle"></i> Rejected
+                        </span>
+                    }
+                </td>
+                <td style="border: 1px solid #ddd; padding: 8px;">@(claim.HoursWorked * claim.HourlyRate)</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<!-- Form to generate reports -->
+<form method="post" asp-action="GenerateReport">
+    <button type="submit" name="reportType" value="claims">Generate Claims Report</button>
+    <button type="submit" name="reportType" value="lecturers">Generate Lecturer Activity Report</button>
+</form>
+
+<!-- Redirect Button to go back to HR Dashboard -->
+<form method="get" asp-controller="HR" asp-action="HRDashboard">
+    <button type="submit" class="btn">Go to HR Dashboard</button>
+</form>
